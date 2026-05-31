@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ltgray: #BFBFBF;
+  --color-mdgray: #747474;
+  --color-dkgray: #545454;
+  --color-light: #F6F6F6;
+  --color-mddark:#1C2433;
+  --color-dark: #101828;
+  --color-brand: #0000CC;
+  --radius-std: 1.5rem;
+  --font-std: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
