@@ -5,6 +5,7 @@ import { buttonStyleApplier } from './buttons.styles';
 export const Button = ({disabled, children, styleVariant, className, icon:Icon, ...props}: ButtonProps) =>{
     return(
         <button
+        type='button'
         className={cn(
             disabled 
             ? buttonStyleApplier("disabled") 
