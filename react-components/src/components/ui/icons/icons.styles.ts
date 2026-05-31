@@ -5,7 +5,7 @@ const outlinedStyle: styleVariant = {
     styles:[
     "fill-none",
     "stroke-current",
-    "stroke-2"]
+    "stroke-20"]
 }
 
 const filledStyle: styleVariant = {
@@ -16,15 +16,15 @@ const filledStyle: styleVariant = {
     ]
 }
 
-const baseStyle: string[] = ["h-6", "w-6"];
+const baseStyle: string[] = ["h-10", "w-10"];
 
 const defaultStyle: styleVariant = filledStyle;
 
-const iconStyleVariants: styleVariant[] = [outlinedStyle, filledStyle];
+const styleVariants: styleVariant[] = [outlinedStyle, filledStyle];
 
 const iconStyleSet: styleSet = {
     base: baseStyle,
-    variants: iconStyleVariants,
+    variants: styleVariants,
     default: defaultStyle
 }
 
